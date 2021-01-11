@@ -27,12 +27,3 @@ def create_urlfile():
 
 
 create_urlfile()
-
-# import requests
-# import pprint
-#
-# response = requests.get('https://raw.githubusercontent.com/mledoze/countries/master/countries.json')
-# beta_file = response.json()
-# countries = (country['translations']['rus']['official'] for country in beta_file)
-# for country in countries:
-#     pprint.pprint(country)
